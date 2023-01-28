@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{76F7B071-2AA7-4263-8FD7-64412CCACB71}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WpfApplication1</RootNamespace>
+    <AssemblyName>MetroGraphicsMaker</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;IS_REPAIR_COLLECTION, STATISTIC_ON, BREAK_ON</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MiscUtil">
+      <HintPath>Munkres\MiscUtil-r285\MiscUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Actions\BaseActions\ReportAction.cs" />
+    <Compile Include="Actions\GroupActions\MoveGroupPrimaryTrainPathEditor.cs" />
+    <Compile Include="Actions\Processes\TransitionProcess.cs" />
+    <Compile Include="Actions\Service\AbstractTailEditor.cs" />
+    <Compile Include="Actions\Service\SelectOrDeselectTrainPathPrimitive\DeselectPrimaryTrainPathEditor.cs" />
+    <Compile Include="Actions\Service\SelectOrDeselectTrainPathPrimitive\DeselectSecondaryTrainPathEditor.cs" />
+    <Compile Include="Actions\Service\SelectOrDeselectTrainPathPrimitive\SelectPrimaryTrainPathEditor.cs" />
+    <Compile Include="Actions\Service\SelectOrDeselectTrainPathPrimitive\SelectSecondaryTrainPathEditor.cs" />
+    <Compile Include="Actions\SimpleActions\DisconnectionTrainPaths.cs" />
+    <Compile Include="Actions\SimpleActions\DeletionTrainPathLastTail.cs" />
+    <Compile Include="Actions\SimpleActions\CreationTrainPathLastTail.cs" />
+    <Compile Include="Actions\SimpleActions\ExpandLengthOfTrainPath.cs" />
+    <Compile Include="Actions\SimpleActions\LengthOfTrainPathWithDeleteConnectionTrainPath.cs" />
+    <Compile Include="Actions\SimpleActions\MovingPrimaryTrainPath.cs" />
+    <Compile Include="Actions\Service\ServiceMoveTrainPathEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Actions\Service\ServiceSelectTrainPath.cs" />
+    <Compile Include="Actions\Processes\StationaryProcess.cs" />
+    <Compile Include="ChainsLogger.cs" />
+    <Compile Include="Converters\ColorConverter.cs" />
+    <Compile Include="Converters\ColorViewer.cs" />
+    <Compile Include="Converters\PointOperator.cs" />
+    <Compile Include="Converters\TimeConverter.cs" />
+    <Compile Include="Converters\TimeInterval.cs" />
+    <Compile Include="Converters\TypeDataConverter.cs" />
+    <Compile Include="Converters\WorkSchedule.cs" />
+    <Compile Include="Core\AdvancedRepairCandidate.cs" />
+    <Compile Include="Core\AdvancedRepairCandidateComparer.cs" />
+    <Compile Include="Core\Chain.cs" />
+    <Compile Include="Core\ChainRepository.cs" />
+    <Compile Include="Core\Entiry.cs" />
+    <Compile Include="Core\Link.cs" />
+    <Compile Include="Core\RepairCandidat.cs" />
+    <Compile Include="Core\StorageExtentionMethods.cs" />
+    <Compile Include="Core\TailCore\AbstractTail.cs" />
+    <Compile Include="Core\TailCore\AbstractTailGiver.cs" />
+    <Compile Include="Core\TailCore\SingleTail.cs" />
+    <Compile Include="Core\TailCore\LinkedTail.cs" />
+    <Compile Include="Core\enumRegimeOfMotion.cs" />
+    <Compile Include="Core\ElementOfSchedule.cs" />
+    <Compile Include="Core\MovementMode.cs" />
+    <Compile Include="Core\RazmerDvizheniya.cs" />
+    <Compile Include="Core\SRV.cs" />
+    <Compile Include="Core\TailCore\NightTail.cs" />
+    <Compile Include="Core\Timetable.cs" />
+    <Compile Include="Core\TimetablesList.cs" />
+    <Compile Include="Core\TrainPath.cs" />
+    <Compile Include="Core\Depot.cs" />
+    <Compile Include="Core\Direction.cs" />
+    <Compile Include="Core\ElementOfMovementSchedule.cs" />
+    <Compile Include="Core\InspectionPoint.cs" />
+    <Compile Include="Core\Legend.cs" />
+    <Compile Include="Core\Line.cs" />
+    <Compile Include="Core\NightStayPoint.cs" />
+    <Compile Include="Core\Repair.cs" />
+    <Compile Include="Core\RepairType.cs" />
+    <Compile Include="Core\Route.cs" />
+    <Compile Include="Core\Station.cs" />
+    <Compile Include="Core\Task.cs" />
+    <Compile Include="Core\ThreadState.cs" />
+    <Compile Include="Core\TimeNorm.cs" />
+    <Compile Include="Core\TimeVariant.cs" />
+    <Compile Include="Core\Train.cs" />
+    <Compile Include="Core\Wagon.cs" />
+    <Compile Include="Core\WagonType.cs" />
+    <Compile Include="Actions\BaseActions\BaseEdit.cs" />
+    <Compile Include="Actions\SimpleActions\LengthOfTrainPath.cs" />
+    <Compile Include="Actions\SimpleActions\DeletionTrainPath.cs" />
+    <Compile Include="Actions\SimpleActions\StationOvertimeEditor.cs" />
+    <Compile Include="Actions\SimpleActions\ConnectionTrainPaths.cs" />
+    <Compile Include="Actions\SimpleActions\CreationTrainPath.cs" />
+    <Compile Include="Exceptions\Actions\TheOperationIsNotFeasible.cs" />
+    <Compile Include="Exceptions\Actions\ActionStateEnum.cs" />
+    <Compile Include="Exceptions\TheGraphIsNotFeasible.cs" />
+    <Compile Include="Forms\AutomationWindows\DirectionView.cs" />
+    <Compile Include="Forms\AutomationWindows\ResultForMyDataGrid.cs" />
+    <Compile Include="Forms\AutomationWindows\ResultForTransitionProcess.cs" />
+    <Compile Include="Forms\AutomationWindows\StacProcessWindow.xaml.cs">
+      <DependentUpon>StacProcessWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AutomationWindows\TransitionProcessWindow.xaml.cs">
+      <DependentUpon>TransitionProcessWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ChooseAlgorithmsForm.xaml.cs">
+      <DependentUpon>ChooseAlgorithmsForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConfigurationForm.xaml.cs">
+      <DependentUpon>ConfigurationForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Counter.cs" />
+    <Compile Include="Forms\CountersForm.xaml.cs">
+      <DependentUpon>CountersForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditorWindows\GraphCore\CreateCustomEnding.xaml.cs">
+      <DependentUpon>CreateCustomEnding.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditorWindows\GraphCore\CreateCustomEndingNew.xaml.cs">
+      <DependentUpon>CreateCustomEndingNew.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditorWindows\GraphCore\DlgWindow1.xaml.cs">
+      <DependentUpon>DlgWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditorWindows\GraphCore\Edge.cs" />
+    <Compile Include="Forms\EditorWindows\GraphCore\Graph.cs" />
+    <Compile Include="Forms\EditorWindows\GraphCore\LoadCustomEndings.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\EditorWindows\GraphCore\Node.cs" />
+    <Compile Include="Forms\EditorWindows\NightAlignmentPointsWindow.xaml.cs">
+      <DependentUpon>NightAlignmentPointsWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\EditorWindows\OneTrainPathScheduleWindow.xaml.cs">
+      <DependentUpon>OneTrainPathScheduleWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditorWindows\RouteWindow.xaml.cs">
+      <DependentUpon>RouteWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ExtraTimewindow.xaml.cs">
+      <DependentUpon>ExtraTimewindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Service\SettingsWorkSpaсe.xaml.cs">
+      <DependentUpon>SettingsWorkSpaсe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LoadData\Reflection\ColumnInfo.cs" />
+    <Compile Include="LoadData\Reflection\IDbTypeconverter.cs" />
+    <Compile Include="LoadData\Reflection\InformationProvider.cs" />
+    <Compile Include="LoadData\Reflection\NamedEntity.cs" />
+    <Compile Include="LoadData\Reflection\CatalogInfo.cs" />
+    <Compile Include="LoadData\Reflection\QueryWriter.cs" />
+    <Compile Include="LoadData\Reflection\SwitchDbTypeConverter.cs" />
+    <Compile Include="LoadData\Reflection\TableInfo.cs" />
+    <Compile Include="LoadData\Saver.cs" />
+    <Compile Include="Munkres\Matrix.cs" />
+    <Compile Include="Munkres\Solver_new.cs" />
+    <Compile Include="Schedule\LineType.cs" />
+    <Compile Include="Schedule\Schedule.cs" />
+    <Compile Include="Schedule\ScheduleDayType.cs" />
+    <Compile Include="Schedule\ScheduleType.cs" />
+    <Compile Include="Schedule\Season.cs" />
+    <Compile Include="View\CreateCustomEndingView\Decoder.cs" />
+    <Compile Include="View\CreateCustomEndingView\Edge1.cs" />
+    <Compile Include="View\CreateCustomEndingView\IOXml.cs" />
+    <Compile Include="View\CreateCustomEndingView\MouseMenuForNode1.cs" />
+    <Compile Include="View\CreateCustomEndingView\MyCanvas.cs" />
+    <Compile Include="View\CreateCustomEndingView\MyCanvas1.cs" />
+    <Compile Include="View\CreateCustomEndingView\Node1.cs" />
+    <Compile Include="View\CreateCustomEndingView\Screen.cs" />
+    <Compile Include="View\CreateCustomEndingView\View\EdgeView.cs" />
+    <Compile Include="View\CreateCustomEndingView\View\NodeView.cs" />
+    <Compile Include="View\PlannedScheduleMovementView\MouseMenuForTrainPath.cs" />
+    <Compile Include="View\PlannedScheduleMovementView\GraphDiagram.cs" />
+    <Compile Include="View\PlannedScheduleMovementView\StationView\MouseMenuForStation.cs" />
+    <Compile Include="View\PlannedScheduleMovementView\StationView\Station.cs" />
+    <Compile Include="View\PlannedScheduleMovementView\StationView\PannelStation.cs" />
+    <Compile Include="Controls\RadioGroup\GroupRadioGroups.cs" />
+    <Compile Include="Controls\RadioGroup\RadioGroup.cs" />
+    <Compile Include="Forms\EditorWindows\ScheduleWindow.xaml.cs">
+      <DependentUpon>ScheduleWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Forms\AutomationWindows\StacProcessWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\AutomationWindows\TransitionProcessWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\ChooseAlgorithmsForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\ConfigurationForm.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\CountersForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\EditorWindows\GraphCore\CreateCustomEnding.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\EditorWindows\GraphCore\CreateCustomEndingNew.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\EditorWindows\GraphCore\DlgWindow1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\EditorWindows\NightAlignmentPointsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\EditorWindows\OneTrainPathScheduleWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\EditorWindows\RouteWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\ExtraTimewindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\Service\SettingsWorkSpaсe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="View\PlannedScheduleMovementView\StationView\StationLineForWorkArea.cs" />
+    <Compile Include="View\PlannedScheduleMovementView\TimeView\PannelTimeConstant.cs" />
+    <Compile Include="View\PlannedScheduleMovementView\TimeView\TimeLinesView\AtributesTimeLines.cs" />
+    <Compile Include="View\PlannedScheduleMovementView\TimeView\TimeLinesView\TimeMinute.cs" />
+    <Compile Include="View\PlannedScheduleMovementView\TimeView\TimeLinesView\TimeHour.cs" />
+    <Compile Include="View\PlannedScheduleMovementView\TimeView\TimeLinesView\TimeSeconds.cs" />
+    <Compile Include="View\PlannedScheduleMovementView\TimeView\PannelTime.cs" />
+    <Compile Include="View\PlannedScheduleMovementView\TrainPathView\PenGiver.cs" />
+    <Compile Include="View\PlannedScheduleMovementView\TrainPathView\ListTrainPaths.cs" />
+    <Compile Include="View\PlannedScheduleMovementView\TrainPathView\ConditionTrainPath.cs" />
+    <Compile Include="View\PlannedScheduleMovementView\TrainPathView\TailTrainPathView\ViewTail.cs" />
+    <Compile Include="View\PlannedScheduleMovementView\TrainPathView\TailTrainPathView\ViewTailGiver.cs" />
+    <Compile Include="View\PlannedScheduleMovementView\TrainPathView\TrainPath.cs" />
+    <Compile Include="LoadData\DAO.cs" />
+    <Compile Include="LoadData\FieldInfo.cs" />
+    <Compile Include="LoadData\Loader.cs" />
+    <Compile Include="Core\MovementSchedule.cs" />
+    <Compile Include="LoadData\Partition.cs" />
+    <Compile Include="LoadData\SortBySize.cs" />
+    <Compile Include="LoadData\Storage.cs" />
+    <Compile Include="LoadData\TableInfo.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Forms\EditorWindows\ScheduleWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Messages\Dialogs.cs" />
+    <Compile Include="Messages\Error.cs" />
+    <Compile Include="Messages\HungarianState.cs" />
+    <Compile Include="Messages\Logger.cs" />
+    <Compile Include="Messages\Message.cs" />
+    <Compile Include="Messages\RepairState.cs" />
+    <Compile Include="Messages\SynthesisPhase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADOX">
+      <Guid>{00000600-0000-0010-8000-00AA006D2EA4}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Actions\ComplexActions\" />
+    <Folder Include="Forms\Main\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Apps-customization-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\configure-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\load-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ModernXP-26-Filetype-New-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Redo-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Undo-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Save-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

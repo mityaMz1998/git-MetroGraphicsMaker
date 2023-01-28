@@ -1,0 +1,11 @@
+graph six_arrows_without_Green{
+node [style = filled , fillcolor = yellow] ;
+N15 -- N3 ;
+N3 -- N4 ;
+N3 -- N11 ;
+N8 -- N5 ;
+N8 -- N11 ;
+N3 -- N14 ;
+N14 -- N8 ;
+{rank = same; N4 N14 N11}
+}

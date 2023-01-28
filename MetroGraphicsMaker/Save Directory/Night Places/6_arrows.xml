@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<graph>
+  <nodes maxNodeId="10">
+    <node id="1">
+      <X>498.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>true</isBossNode>
+      <type>White</type>
+    </node>
+    <node id="2">
+      <X>400.48275862068965</X>
+      <Y>401</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="3">
+      <X>299.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="4">
+      <X>199.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="5">
+      <X>200.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="6">
+      <X>300.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="7">
+      <X>399.48275862068965</X>
+      <Y>199</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="8">
+      <X>499.48275862068965</X>
+      <Y>199</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="9">
+      <X>299.48275862068965</X>
+      <Y>260</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="10">
+      <X>299.48275862068965</X>
+      <Y>340</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+  </nodes>
+  <edges>
+    <edge sourceId="1" targetId="2" isNavigated="false" />
+    <edge sourceId="2" targetId="3" isNavigated="false" />
+    <edge sourceId="3" targetId="4" isNavigated="false" />
+    <edge sourceId="5" targetId="6" isNavigated="false" />
+    <edge sourceId="6" targetId="7" isNavigated="false" />
+    <edge sourceId="7" targetId="8" isNavigated="false" />
+    <edge sourceId="7" targetId="9" isNavigated="false" />
+    <edge sourceId="2" targetId="9" isNavigated="false" />
+    <edge sourceId="2" targetId="10" isNavigated="false" />
+    <edge sourceId="7" targetId="10" isNavigated="false" />
+  </edges>
+</graph>

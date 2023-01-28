@@ -1,0 +1,53 @@
+﻿<Window x:Class="WpfApplication1.Forms.EditorWindows.GraphCore.CreateCustomEnding"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Name="CreateCustomEndingWindow" 
+        xmlns:my="clr-namespace:linii_graph"
+        xmlns:local="clr-namespace:linii_graph"
+        Title="Построение произвольного окончания." 
+        MouseMove="Window_MouseMove" 
+        MouseLeftButtonUp="main_vindow_MouseLeftButtonUp" 
+        MouseLeftButtonDown="Window_MouseLeftButtonDown" >
+
+    <!--<Window.Resources>
+        <Style x:Key="myStyle" TargetType="Button">
+            <Setter Property="Background" Value="Orange" />
+            <Setter Property="FontStyle" Value="Italic" />
+            <Setter Property="Padding" Value="8,4" />
+            <Setter Property="Margin" Value="4" />
+        </Style>
+    </Window.Resources>-->
+
+    <Grid ShowGridLines="False">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        
+        <StackPanel Grid.Column="0" Grid.Row="0" Background="ForestGreen" >
+            <Label Margin="10" Padding="15" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White">Коллекция окончаний</Label>
+            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <WrapPanel Name="ButtonsWrapPanel" Background="WhiteSmoke" Width="300" MinHeight="900" />
+                </ScrollViewer>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"  Background="ForestGreen" Orientation="Horizontal">
+            <Button Content="Очистить все"  Margin="10" Padding="10"  VerticalAlignment="Center" x:Name="ClearButton"  Click="button5_Click" />
+            <Button Content="Сохранить в коллекцию" Margin="10" Padding="10"  VerticalAlignment="Center" x:Name="TakeDrawingScreenshot"  Click="TakeDrawingScreenshot_Click"/>
+            <Button Content="Добавить ребро" Click="ButtonBase_OnClick" Margin="10" Padding="10"/>
+            <Button Content="Главная точка" Click="CreateBossNode_OnClick" Margin="10" Padding="10"/>
+            <Slider x:Name="ScaleSlider" Width="100" TickPlacement="BottomRight" Margin="10"/>
+            <Button Content="Bind nodes" Margin="10" Padding="10"  VerticalAlignment="Center" x:Name="BuildButton" Click="BuildButton_Click" Visibility="Visible"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="0" Grid.Column="1" Background="White" >
+            <my:MyCanvas  x:Name="myCanvas" Height="10" Width="10" Background="Blue"   VerticalAlignment="Center" IsEnabled="False" Visibility="Hidden"/>
+            <local:MyCanvas1 x:Name="GraphCanvas" Background="White" Width="600" Height="600" VerticalAlignment="Center" Margin="10"/>
+        </StackPanel>
+    </Grid> 
+</Window>    

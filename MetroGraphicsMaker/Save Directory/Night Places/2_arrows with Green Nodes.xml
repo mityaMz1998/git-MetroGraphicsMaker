@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<graph>
+  <nodes maxNodeId="12">
+    <node id="1">
+      <X>599.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>true</isBossNode>
+      <type>White</type>
+    </node>
+    <node id="2">
+      <X>499.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="3">
+      <X>399.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="4">
+      <X>299.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Green</type>
+    </node>
+    <node id="5">
+      <X>199.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="6">
+      <X>99.482758620689651</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="7">
+      <X>99.482758620689651</X>
+      <Y>199</Y>
+      <isBossNode>false</isBossNode>
+      <type>Green</type>
+    </node>
+    <node id="8">
+      <X>199.48275862068965</X>
+      <Y>199</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="9">
+      <X>299.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="10">
+      <X>399.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="11">
+      <X>499.48275862068965</X>
+      <Y>199</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="12">
+      <X>599.48275862068965</X>
+      <Y>199</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="13">
+      <X>20.48275862068965</X>
+      <Y>199</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+  </nodes>
+  <edges>
+    <edge sourceId="1" targetId="2" isNavigated="false" />
+    <edge sourceId="2" targetId="3" isNavigated="false" />
+    <edge sourceId="3" targetId="4" isNavigated="false" />
+    <edge sourceId="4" targetId="5" isNavigated="false" />
+    <edge sourceId="5" targetId="6" isNavigated="false" />
+    <edge sourceId="13" targetId="7" isNavigated="false" />
+    <edge sourceId="7" targetId="8" isNavigated="false" />
+    <edge sourceId="8" targetId="9" isNavigated="false" />
+    <edge sourceId="9" targetId="10" isNavigated="false" />
+    <edge sourceId="10" targetId="11" isNavigated="false" />
+    <edge sourceId="11" targetId="12" isNavigated="false" />
+    <edge sourceId="4" targetId="7" isNavigated="true" />
+    <edge sourceId="7" targetId="4" isNavigated="true" />
+  </edges>
+</graph>

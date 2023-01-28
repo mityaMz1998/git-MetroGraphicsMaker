@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<graph>
+  <nodes maxNodeId="0">
+    <node id="15">
+      <X>500.48275862068965</X>
+      <Y>399</Y>
+      <isBossNode>true</isBossNode>
+      <type>White</type>
+    </node>
+    <node id="3">
+      <X>299.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="4">
+      <X>200.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="5">
+      <X>199.48275862068965</X>
+      <Y>199</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="8">
+      <X>499.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="11">
+      <X>99.482758620689651</X>
+      <Y>259</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="14">
+      <X>100.48275862068965</X>
+      <Y>340</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+  </nodes>
+  <edges>
+    <edge sourceId="15" targetId="3" isNavigated="false" />
+    <edge sourceId="3" targetId="4" isNavigated="false" />
+    <edge sourceId="5" targetId="8" isNavigated="false" />
+    <edge sourceId="8" targetId="11" isNavigated="false" />
+    <edge sourceId="3" targetId="14" isNavigated="false" />
+    <edge sourceId="11" targetId="3" isNavigated="false" />
+    <edge sourceId="8" targetId="14" isNavigated="false" />
+  </edges>
+</graph>

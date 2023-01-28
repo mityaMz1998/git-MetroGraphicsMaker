@@ -1,0 +1,50 @@
+﻿<Window x:Class="WpfApplication1.Forms.ExtraTimewindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1.Forms"
+        mc:Ignorable="d"
+        Title="Extra Time window" FontFamily="Times New Roman" Height="400" Width="450" Background="#FFCEDDE2">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <GroupBox Header="Количество Кандидатов" HorizontalAlignment="Center" Width="400" Margin="10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Orientation="Vertical" Margin="5">
+                    <Label Content="Каличество кандидатов для 1-го депо"/>
+                    <Label Content="Каличество кандидатов для 2-го депо"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Grid.Column="1" Margin="5">
+                    <TextBox Name="candidates_firstDepot_box" Width="100" Height="20" Margin="2"/>
+                    <TextBox Name="candidates_secondDepot_box" Width="100" Height="20" Margin="2"/>
+                </StackPanel>
+            </Grid>
+
+        </GroupBox>
+        <ScrollViewer Width="400" HorizontalAlignment="Center" Height="auto" Margin="5" Visibility="Visible" Grid.Row="1"   >
+            <DataGrid Name="AdditionalDataGrid" SelectionMode="Extended" SelectionUnit="FullRow" ItemsSource="{Binding}" AutoGenerateColumns="False" CanUserAddRows="False" Width="380" Height="auto" BorderBrush="Gray" BorderThickness="2" FontFamily="Times New Roman" SelectedIndex="0" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn x:Name="NumberOfRepairColumn" Binding="{Binding Path=NumberOfRepair}" Header="№/№ п/п" Width="60"  />
+                    <DataGridTextColumn x:Name="AdditionalTimeColumn" Binding="{Binding Path=Additionaltime}" Header="Превышения" Width="80"/>
+                    <DataGridCheckBoxColumn x:Name="CheckColumn" Header="" Binding="{Binding Path=CheckAdditionalTime}" Width="30"/>
+                    <DataGridTextColumn x:Name="ChainColumn" Header="Цепочка" Binding="{Binding Path=Chains}" Width="110"/>
+                    <DataGridTextColumn Header="Число ремонтов" Binding="{Binding Path=AmountOfRepair}" Width="100"></DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+            </ScrollViewer>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="2" Margin="15,5">
+                <Label Content="Total Repairs" Width="100" Height="25" Margin="5"></Label>
+                <TextBox Name="totalBox" Width="100" TextAlignment="Center" Height="25"></TextBox>
+            </StackPanel>
+        <Button Name="OKBtn" Content="OK" Grid.Row="3" Height="30" Width="100" Click="OKBtn_OnClick" Background="#FFE69431"></Button>
+    </Grid>
+</Window>

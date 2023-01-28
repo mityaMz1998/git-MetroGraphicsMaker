@@ -1,0 +1,16 @@
+graph six_arrows{
+node [style = filled , fillcolor = yellow] ;
+N1 -- N2 ;
+N2 -- N3 ;
+N3 -- N4 ;
+N6 -- N5 ;
+N6 -- N7 ;
+N7 -- N8 ;
+N7 -- N9 ;
+N2 -- N9 ;
+N2 -- N10 ;
+N7 -- N10 ;
+{rank = same ; N6 N8 };
+{rank = same ; N4 N7 };
+{rank = same ; N3 N9 N10};
+}

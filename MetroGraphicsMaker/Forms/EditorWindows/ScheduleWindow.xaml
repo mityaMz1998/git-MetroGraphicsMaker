@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApplication1.ScheduleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Таблица времен хода" Height="500" Width="525">
+    <Grid Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" ></RowDefinition>
+            <RowDefinition Height="auto" ></RowDefinition>
+            <RowDefinition Height="170*" ></RowDefinition>
+            <RowDefinition Height="auto" ></RowDefinition>
+        </Grid.RowDefinitions>
+        <ScrollViewer Grid.Row="2">
+            <DataGrid Name="ScheduleDataGrid" Grid.Row="2" AutoGenerateColumns="True"/>
+        </ScrollViewer>
+        <StackPanel HorizontalAlignment="Left" Grid.Row="0" Margin="10,0,0,0" VerticalAlignment="Top">
+            <Label Content="Направление" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        </StackPanel>
+
+        <StackPanel HorizontalAlignment="Left" Grid.Row="1" Margin="10,0,0,0" VerticalAlignment="Top">
+            <Label Content="Режим" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        </StackPanel>
+        <Button Name="OKbutton" Content="ОК" Grid.Row="3" Margin="10" Height="50" Width="100" Click="OKbutton_Click"/>
+    </Grid>
+</Window>

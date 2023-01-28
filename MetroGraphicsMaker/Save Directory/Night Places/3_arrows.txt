@@ -1,0 +1,19 @@
+graph three_arrows{
+node [style = filled , fillcolor = yellow] ;
+N1 -- N2;
+N2 -- N3;
+N3 -- N4;
+N4 -- N5;
+N5 -- N6;
+N7 -- N8;
+N8 -- N9;
+N9 -- N10;
+N10 -- N11;
+N11 -- N12;
+N9 -- N13;
+N4 -- N13;
+{rank = same ; N9 N6 }
+{rank = same ; N13 N5}
+{rank = same ; N8 N10}
+{rank = same ; N7 N11}
+}

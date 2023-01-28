@@ -1,0 +1,972 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<graph>
+  <nodes maxNodeId="8">
+    <node id="1">
+      <X>500.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="102">
+      <X>400.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="203">
+      <X>298.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="306">
+      <X>299.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="404">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="505">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="607">
+      <X>399.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="708">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="807">
+      <X>399.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="905">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="1008">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="1108">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="1205">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="1305">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="1404">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="1507">
+      <X>399.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="1608">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="1707">
+      <X>399.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="1804">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="1908">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="2008">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="2104">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="2207">
+      <X>399.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="2304">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="2405">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="2508">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="2608">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="2705">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="2805">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="2904">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="3008">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="3108">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="3204">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="3308">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="3404">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="3505">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="3605">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="3704">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="3804">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="3906">
+      <X>299.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="4005">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="4107">
+      <X>399.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="4208">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="4307">
+      <X>399.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="4405">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="4508">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="4608">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="4705">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="4806">
+      <X>299.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="4903">
+      <X>298.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="5004">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="5105">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="5207">
+      <X>399.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="5308">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="5407">
+      <X>399.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="5505">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="5608">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="5708">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="5805">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="5905">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="6004">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="6107">
+      <X>399.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="6208">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="6307">
+      <X>399.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="6404">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="6508">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="6608">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="6704">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="6807">
+      <X>399.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="6904">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="7005">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="7108">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="7208">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="7305">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="7405">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="7504">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="7608">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="7708">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="7804">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="7908">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="8004">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="8105">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="8205">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="8304">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="8405">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="8503">
+      <X>298.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="8604">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="8707">
+      <X>399.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="8808">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="8907">
+      <X>399.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="9004">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="9108">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="9208">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="9304">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="9407">
+      <X>399.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="9503">
+      <X>298.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="9604">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="9708">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="9808">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="9904">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="10008">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="10103">
+      <X>298.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="10204">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="10307">
+      <X>399.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="10403">
+      <X>298.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="10504">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="10605">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="10708">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="10808">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="10905">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="11005">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="11104">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="11208">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="11308">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="11404">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="11508">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="11604">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="11705">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="11805">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="11904">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="12005">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="12103">
+      <X>298.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="12204">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="12308">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="12408">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="12504">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="12608">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="12703">
+      <X>298.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="12804">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="12908">
+      <X>500.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="13003">
+      <X>298.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="13104">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="13205">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="13305">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="13404">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="13505">
+      <X>198.48275862068965</X>
+      <Y>200</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="13603">
+      <X>298.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+    <node id="13704">
+      <X>198.48275862068965</X>
+      <Y>400</Y>
+      <isBossNode>false</isBossNode>
+      <type>Yellow</type>
+    </node>
+  </nodes>
+  <edges>
+    <edge sourceId="1" targetId="102" isNavigated="true" />
+    <edge sourceId="102" targetId="203" isNavigated="true" />
+    <edge sourceId="203" targetId="306" isNavigated="true" />
+    <edge sourceId="306" targetId="404" isNavigated="true" />
+    <edge sourceId="404" targetId="505" isNavigated="true" />
+    <edge sourceId="505" targetId="607" isNavigated="true" />
+    <edge sourceId="607" targetId="708" isNavigated="true" />
+    <edge sourceId="404" targetId="807" isNavigated="true" />
+    <edge sourceId="807" targetId="905" isNavigated="true" />
+    <edge sourceId="905" targetId="1008" isNavigated="true" />
+    <edge sourceId="807" targetId="1108" isNavigated="true" />
+    <edge sourceId="1108" targetId="1205" isNavigated="true" />
+    <edge sourceId="306" targetId="1305" isNavigated="true" />
+    <edge sourceId="1305" targetId="1404" isNavigated="true" />
+    <edge sourceId="1404" targetId="1507" isNavigated="true" />
+    <edge sourceId="1507" targetId="1608" isNavigated="true" />
+    <edge sourceId="1305" targetId="1707" isNavigated="true" />
+    <edge sourceId="1707" targetId="1804" isNavigated="true" />
+    <edge sourceId="1804" targetId="1908" isNavigated="true" />
+    <edge sourceId="1707" targetId="2008" isNavigated="true" />
+    <edge sourceId="2008" targetId="2104" isNavigated="true" />
+    <edge sourceId="306" targetId="2207" isNavigated="true" />
+    <edge sourceId="2207" targetId="2304" isNavigated="true" />
+    <edge sourceId="2304" targetId="2405" isNavigated="true" />
+    <edge sourceId="2405" targetId="2508" isNavigated="true" />
+    <edge sourceId="2304" targetId="2608" isNavigated="true" />
+    <edge sourceId="2608" targetId="2705" isNavigated="true" />
+    <edge sourceId="2207" targetId="2805" isNavigated="true" />
+    <edge sourceId="2805" targetId="2904" isNavigated="true" />
+    <edge sourceId="2904" targetId="3008" isNavigated="true" />
+    <edge sourceId="2805" targetId="3108" isNavigated="true" />
+    <edge sourceId="3108" targetId="3204" isNavigated="true" />
+    <edge sourceId="2207" targetId="3308" isNavigated="true" />
+    <edge sourceId="3308" targetId="3404" isNavigated="true" />
+    <edge sourceId="3404" targetId="3505" isNavigated="true" />
+    <edge sourceId="3308" targetId="3605" isNavigated="true" />
+    <edge sourceId="3605" targetId="3704" isNavigated="true" />
+    <edge sourceId="203" targetId="3804" isNavigated="true" />
+    <edge sourceId="3804" targetId="3906" isNavigated="true" />
+    <edge sourceId="3906" targetId="4005" isNavigated="true" />
+    <edge sourceId="4005" targetId="4107" isNavigated="true" />
+    <edge sourceId="4107" targetId="4208" isNavigated="true" />
+    <edge sourceId="3906" targetId="4307" isNavigated="true" />
+    <edge sourceId="4307" targetId="4405" isNavigated="true" />
+    <edge sourceId="4405" targetId="4508" isNavigated="true" />
+    <edge sourceId="4307" targetId="4608" isNavigated="true" />
+    <edge sourceId="4608" targetId="4705" isNavigated="true" />
+    <edge sourceId="102" targetId="4806" isNavigated="true" />
+    <edge sourceId="4806" targetId="4903" isNavigated="true" />
+    <edge sourceId="4903" targetId="5004" isNavigated="true" />
+    <edge sourceId="5004" targetId="5105" isNavigated="true" />
+    <edge sourceId="5105" targetId="5207" isNavigated="true" />
+    <edge sourceId="5207" targetId="5308" isNavigated="true" />
+    <edge sourceId="5004" targetId="5407" isNavigated="true" />
+    <edge sourceId="5407" targetId="5505" isNavigated="true" />
+    <edge sourceId="5505" targetId="5608" isNavigated="true" />
+    <edge sourceId="5407" targetId="5708" isNavigated="true" />
+    <edge sourceId="5708" targetId="5805" isNavigated="true" />
+    <edge sourceId="4903" targetId="5905" isNavigated="true" />
+    <edge sourceId="5905" targetId="6004" isNavigated="true" />
+    <edge sourceId="6004" targetId="6107" isNavigated="true" />
+    <edge sourceId="6107" targetId="6208" isNavigated="true" />
+    <edge sourceId="5905" targetId="6307" isNavigated="true" />
+    <edge sourceId="6307" targetId="6404" isNavigated="true" />
+    <edge sourceId="6404" targetId="6508" isNavigated="true" />
+    <edge sourceId="6307" targetId="6608" isNavigated="true" />
+    <edge sourceId="6608" targetId="6704" isNavigated="true" />
+    <edge sourceId="4903" targetId="6807" isNavigated="true" />
+    <edge sourceId="6807" targetId="6904" isNavigated="true" />
+    <edge sourceId="6904" targetId="7005" isNavigated="true" />
+    <edge sourceId="7005" targetId="7108" isNavigated="true" />
+    <edge sourceId="6904" targetId="7208" isNavigated="true" />
+    <edge sourceId="7208" targetId="7305" isNavigated="true" />
+    <edge sourceId="6807" targetId="7405" isNavigated="true" />
+    <edge sourceId="7405" targetId="7504" isNavigated="true" />
+    <edge sourceId="7504" targetId="7608" isNavigated="true" />
+    <edge sourceId="7405" targetId="7708" isNavigated="true" />
+    <edge sourceId="7708" targetId="7804" isNavigated="true" />
+    <edge sourceId="6807" targetId="7908" isNavigated="true" />
+    <edge sourceId="7908" targetId="8004" isNavigated="true" />
+    <edge sourceId="8004" targetId="8105" isNavigated="true" />
+    <edge sourceId="7908" targetId="8205" isNavigated="true" />
+    <edge sourceId="8205" targetId="8304" isNavigated="true" />
+    <edge sourceId="4806" targetId="8405" isNavigated="true" />
+    <edge sourceId="8405" targetId="8503" isNavigated="true" />
+    <edge sourceId="8503" targetId="8604" isNavigated="true" />
+    <edge sourceId="8604" targetId="8707" isNavigated="true" />
+    <edge sourceId="8707" targetId="8808" isNavigated="true" />
+    <edge sourceId="8503" targetId="8907" isNavigated="true" />
+    <edge sourceId="8907" targetId="9004" isNavigated="true" />
+    <edge sourceId="9004" targetId="9108" isNavigated="true" />
+    <edge sourceId="8907" targetId="9208" isNavigated="true" />
+    <edge sourceId="9208" targetId="9304" isNavigated="true" />
+    <edge sourceId="8405" targetId="9407" isNavigated="true" />
+    <edge sourceId="9407" targetId="9503" isNavigated="true" />
+    <edge sourceId="9503" targetId="9604" isNavigated="true" />
+    <edge sourceId="9604" targetId="9708" isNavigated="true" />
+    <edge sourceId="9503" targetId="9808" isNavigated="true" />
+    <edge sourceId="9808" targetId="9904" isNavigated="true" />
+    <edge sourceId="9407" targetId="10008" isNavigated="true" />
+    <edge sourceId="10008" targetId="10103" isNavigated="true" />
+    <edge sourceId="10103" targetId="10204" isNavigated="true" />
+    <edge sourceId="4806" targetId="10307" isNavigated="true" />
+    <edge sourceId="10307" targetId="10403" isNavigated="true" />
+    <edge sourceId="10403" targetId="10504" isNavigated="true" />
+    <edge sourceId="10504" targetId="10605" isNavigated="true" />
+    <edge sourceId="10605" targetId="10708" isNavigated="true" />
+    <edge sourceId="10504" targetId="10808" isNavigated="true" />
+    <edge sourceId="10808" targetId="10905" isNavigated="true" />
+    <edge sourceId="10403" targetId="11005" isNavigated="true" />
+    <edge sourceId="11005" targetId="11104" isNavigated="true" />
+    <edge sourceId="11104" targetId="11208" isNavigated="true" />
+    <edge sourceId="11005" targetId="11308" isNavigated="true" />
+    <edge sourceId="11308" targetId="11404" isNavigated="true" />
+    <edge sourceId="10403" targetId="11508" isNavigated="true" />
+    <edge sourceId="11508" targetId="11604" isNavigated="true" />
+    <edge sourceId="11604" targetId="11705" isNavigated="true" />
+    <edge sourceId="11508" targetId="11805" isNavigated="true" />
+    <edge sourceId="11805" targetId="11904" isNavigated="true" />
+    <edge sourceId="10307" targetId="12005" isNavigated="true" />
+    <edge sourceId="12005" targetId="12103" isNavigated="true" />
+    <edge sourceId="12103" targetId="12204" isNavigated="true" />
+    <edge sourceId="12204" targetId="12308" isNavigated="true" />
+    <edge sourceId="12103" targetId="12408" isNavigated="true" />
+    <edge sourceId="12408" targetId="12504" isNavigated="true" />
+    <edge sourceId="12005" targetId="12608" isNavigated="true" />
+    <edge sourceId="12608" targetId="12703" isNavigated="true" />
+    <edge sourceId="12703" targetId="12804" isNavigated="true" />
+    <edge sourceId="10307" targetId="12908" isNavigated="true" />
+    <edge sourceId="12908" targetId="13003" isNavigated="true" />
+    <edge sourceId="13003" targetId="13104" isNavigated="true" />
+    <edge sourceId="13104" targetId="13205" isNavigated="true" />
+    <edge sourceId="13003" targetId="13305" isNavigated="true" />
+    <edge sourceId="13305" targetId="13404" isNavigated="true" />
+    <edge sourceId="12908" targetId="13505" isNavigated="true" />
+    <edge sourceId="13505" targetId="13603" isNavigated="true" />
+    <edge sourceId="13603" targetId="13704" isNavigated="true" />
+  </edges>
+</graph>

@@ -1,0 +1,11 @@
+graph three_arrows_without_Green_Nodes{
+node [style = filled , fillcolor = yellow] ;
+N1 -- N2 ;
+N2 -- N5 ;
+N5 -- N6 ;
+N7 -- N10 ;
+N10 -- N11 ;
+N11 -- N12 ;
+N10 -- N14 ;
+N5 -- N14 ;
+}

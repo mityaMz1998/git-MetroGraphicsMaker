@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<graph>
+  <nodes maxNodeId="4">
+    <node id="1">
+      <X>179</X>
+      <Y>168</Y>
+      <isBossNode>true</isBossNode>
+    </node>
+    <node id="2">
+      <X>202</X>
+      <Y>358</Y>
+      <isBossNode>false</isBossNode>
+    </node>
+    <node id="3">
+      <X>400</X>
+      <Y>186</Y>
+      <isBossNode>false</isBossNode>
+    </node>
+    <node id="4">
+      <X>400</X>
+      <Y>331</Y>
+      <isBossNode>false</isBossNode>
+    </node>
+  </nodes>
+  <edges>
+    <edge sourceId="1" targetId="3" />
+    <edge sourceId="1" targetId="2" />
+    <edge sourceId="2" targetId="4" />
+    <edge sourceId="3" targetId="4" />
+  </edges>
+</graph>

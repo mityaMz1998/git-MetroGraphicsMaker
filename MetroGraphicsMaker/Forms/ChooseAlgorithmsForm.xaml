@@ -1,0 +1,8 @@
+﻿<Window x:Class="Forms.ChooseAlgorithmsForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Параметры автоматизированого построения ПГД" Height="450" Width="900" Background="#FF70BABD">
+    <Grid Name="tableLayout">
+        
+    </Grid>
+</Window>
